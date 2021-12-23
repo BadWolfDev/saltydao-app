@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Kami from '../../images/kami.svg';
+import Kami from '../../assets/images/SaltyBadge.png';
 
 export const ContainerFluid = styled.div`
 width: 100%;
@@ -21,7 +21,7 @@ export const Icon = styled.div`
 margin: 0 10px 0 0;
 width: 30px;
 height: 30px;
-background: url("../../images/kami.svg") no-repeat 8px 7px #000;
+background: url("../../assets/images/SaltyBadge.png") no-repeat 8px 7px #000;
 border-radius: 50%;
 float: left;
 transition: all 0.5s;

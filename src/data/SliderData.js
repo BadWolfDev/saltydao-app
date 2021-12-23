@@ -1,7 +1,7 @@
-import KamiOne from '../images/kami-1.jpg';
-import KamiTwo from '../images/kami-2.jpg';
-import KamiThree from '../images/kami-3.jpg';
-import KamiFour from '../images/kami-4.jpg';
+import KamiOne from './../assets/images/SaltyBadge.png';
+import KamiTwo from './../assets/images/SaltyBadge.png';
+import KamiThree from './../assets/images/SaltyBadge.png';
+import KamiFour from './../assets/images/SaltyBadge.png';
 
 export const SliderData = [
     {

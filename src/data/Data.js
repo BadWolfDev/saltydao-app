@@ -2,7 +2,7 @@ import About from '../images/about.svg';
 import Road from '../images/roadmap.svg';
 import Mint from '../images/mint.svg';
 import FAQ from '../images/faq.svg';
-import BikiniSteadss from '../images/bikiLogo.png';
+import BikiniSteadss from '../assets/images/SaltyBadge.png';
 
 export const heroObj = {
     id: 'home',

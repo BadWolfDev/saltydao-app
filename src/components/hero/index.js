@@ -17,7 +17,7 @@ import {
     HeroSection, 
     HeroWrapper, Background } from "./HeroElements";
 
-import BikiniSteadss from '../../images/bikiLogo.png';
+import BikiniSteadss from '../../assets/images/SaltyBadge.png';
 
 const Hero = ({ id, img, alt }) => {
 

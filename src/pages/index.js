@@ -4,7 +4,6 @@ import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/index";
 import Standard from "../components/standard/index";
 import Roadmap from '../components/roadmap';
-import { SliderData } from "../data/SliderData";
 import { aboutObj, RoadmapObj, faqObj, mintObj, heroObj } from '../data/Data';
 import Team from "../components/team/index";
 import FAQ from '../components/faqs/index';
