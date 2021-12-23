@@ -5,7 +5,6 @@ import { FaBars } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import  {SocialIcons, SocialIconLink} from "../../footer/FooterElements";
 import { FaDiscord, FaTwitter } from "react-icons/fa";
-import BikiniSteads from "../../../images/bikiLogo.png";
 
 
 const Navbar = ({ toggle }) => {
