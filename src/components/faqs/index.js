@@ -20,12 +20,16 @@ const top = {
     "color":"#397174"
 }
 
+const maxWidth = {
+    "max-width":"870px"
+}
+
 const FAQ = ({ id, lightBg, imgStart, img, alt, topLine, span, description, headLine }) => {
 
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
-                <InfoWrapper>
+                <InfoWrapper style={maxWidth}>
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper style={styles}>

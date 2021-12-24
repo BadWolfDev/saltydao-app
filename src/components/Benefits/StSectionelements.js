@@ -94,7 +94,7 @@ justify-content: flex-start;
 `;
 
 export const ImgWrap = styled.div`
-max-width: 600px;
+max-width: 555px;
 height: 100%;
 `;
 

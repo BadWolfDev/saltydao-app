@@ -72,6 +72,7 @@ export const TeIcon = styled.img`
 height: 160px;
 width: 160px;
 margin-bottom: 10px;
+border-radius: 3px;
 `
 
 export const Teamh1 = styled.h1`
@@ -80,6 +81,7 @@ color: #fff;
 font-family: 'Montserrat', sans-serif;
 display: flex;
 padding-bottom: 5rem;
+text-transform: uppercase;
 
 @media screen and (max-width: 480px){
     font-size: 2rem;
@@ -89,6 +91,8 @@ padding-bottom: 5rem;
 export const Teamh2 = styled.h2`
 font-size: 1rem;
 margin-bottom: 10px;
+font-family: 'Montserrat', 'sans-serif';
+text-transform: capitalize;
 `;
 
 export const TeamP = styled.p`

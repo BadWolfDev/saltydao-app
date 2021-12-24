@@ -2,7 +2,7 @@ import About from '../images/about.svg';
 import Road from '../images/roadmap.svg';
 import Mint from '../images/mint.svg';
 import FAQ from '../assets/images/SaltyBadge2.png';
-import BikiniSteadss from '../assets/images/SaltyBadge.png';
+import Salty from '../assets/images/SaltyBadge.png';
 
 export const heroObj = {
     id: 'home',
@@ -14,7 +14,7 @@ export const heroObj = {
     description: 'Welcome to SaltyDAO - R.U.G.S Insurance and Launchpad. You have been chosen to join the elite community known as SaltyDAO. We are the first DAO of its kind to offer R.U.G.S insurance, that’s Rugs Undermining the Growth of Solana. We have chosen you because you are part of the Solana community who has fallen victim to rugs or are a member who serves our community with integrity and is firmly against them.',
     buttonLabel: 'Mint',
     imgStart: true,
-    img: BikiniSteadss,
+    img: Salty,
     alt: 'salty',
     dark: false,
     primary: false,
