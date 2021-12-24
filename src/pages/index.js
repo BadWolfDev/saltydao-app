@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Sidebar from "../components/navbar/Sidebar";
 import Navbar from "../components/navbar/Navbar";
-import Hero from "../components/hero/index";
+import Benefits from '../components/Benefits';
 import Standard from "../components/standard/index";
 import Roadmap from '../components/roadmap';
 import { aboutObj, RoadmapObj, faqObj, mintObj, heroObj } from '../data/Data';
@@ -23,6 +23,7 @@ const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <Standard {...heroObj}/>
+        <Benefits />
         <Standard {...aboutObj}/>
         <Roadmap {...RoadmapObj}/>
         <Standard {...mintObj}/>

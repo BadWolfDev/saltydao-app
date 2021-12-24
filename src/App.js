@@ -4,6 +4,8 @@ import GlobalStyle from './GlobalStyles';
 import Home from './pages';
 import MintPage from './pages/MintPage';
 
+import './styles.css'
+
 function App() {
 
   return (
