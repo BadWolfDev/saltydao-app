@@ -30,6 +30,7 @@ export const aboutObj = {
     topLine: 'As a member of SaltyDAO you will enjoy many benefits including:',
     headLine: '',
     description: "- 1 vote for every community vote held regarding the selection process of our launchpad, projects approved for our alpha channel, and any votes regarding the future of our DAO. - You will receive airdrops, WL, or other benefits provided by our launchpad and its partnerships. <br> - Insurance coverage through our approved alpha channel. \n- Launchpad VIP access- if you have a project you’d like to launch or need help with building, your project will be brought to the front of the line for review.  \n - You will receive full coverage in your insurance policy by all projects approved by the SaltySeal or funded by SaltyDAO. \n - More benefits to come!",
+    des1: "jkdhfjkds",
     buttonLabel: 'Mint',
     imgStart: true,
     img: About,
