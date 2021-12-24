@@ -12,6 +12,10 @@ import {
     TopLine, 
     Heading} from '../standard/StSectionelements';
 
+const styles = {
+    "padding-bottom":"0px",
+}
+
 const FAQ = ({ id, lightBg, imgStart, img, alt, topLine, span, description, headLine }) => {
 
     return (
@@ -20,7 +24,7 @@ const FAQ = ({ id, lightBg, imgStart, img, alt, topLine, span, description, head
                 <InfoWrapper>
                     <InfoRow imgStart={imgStart}>
                         <Column1>
-                            <TextWrapper>
+                            <TextWrapper style={styles}>
                                 <TopLine>{topLine}</TopLine>
                                 <Heading>{headLine}</Heading>
                             </TextWrapper>

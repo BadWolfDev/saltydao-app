@@ -1,7 +1,7 @@
 import About from '../images/about.svg';
 import Road from '../images/roadmap.svg';
 import Mint from '../images/mint.svg';
-import FAQ from '../images/faq.svg';
+import FAQ from '../assets/images/SaltyBadge2.png';
 import BikiniSteadss from '../assets/images/SaltyBadge.png';
 
 export const heroObj = {
@@ -75,9 +75,8 @@ export const faqObj = {
     lightText: false,
     lightTextDesc: true,
     topLine: 'FAQ',
-    headLine: 'Mint your Kami, be Kami',
-    span: 'x',
-    description: 'Dis is da wae',
+    headLine: 'SaltyDAO',
+    description: '',
     buttonLabel: 'Mint',
     imgStart: false,
     img: FAQ,
