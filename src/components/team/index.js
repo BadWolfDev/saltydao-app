@@ -12,7 +12,8 @@ const btnTwitter = {
     'max-width':'150px',
     'font-size':'10px',
     'border-radius':'2px',
-    'margin':'auto'
+    'margin':'auto',
+    'text-transform':'lowercase'
 }
 
 const Team = () => {
