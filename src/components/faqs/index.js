@@ -16,6 +16,10 @@ const styles = {
     "padding-bottom":"0px",
 }
 
+const top = {
+    "color":"#397174"
+}
+
 const FAQ = ({ id, lightBg, imgStart, img, alt, topLine, span, description, headLine }) => {
 
     return (
@@ -25,7 +29,7 @@ const FAQ = ({ id, lightBg, imgStart, img, alt, topLine, span, description, head
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper style={styles}>
-                                <TopLine>{topLine}</TopLine>
+                                <TopLine style={top}>{topLine}</TopLine>
                                 <Heading>{headLine}</Heading>
                             </TextWrapper>
                             <QuestionComponent/>
