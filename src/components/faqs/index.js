@@ -21,7 +21,11 @@ const top = {
 }
 
 const maxWidth = {
-    "max-width":"870px"
+    "max-width":"870px",
+}
+
+const maxHeight = {
+    'height':'350px',
 }
 
 const FAQ = ({ id, lightBg, imgStart, img, alt, topLine, span, description, headLine }) => {
@@ -40,7 +44,7 @@ const FAQ = ({ id, lightBg, imgStart, img, alt, topLine, span, description, head
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt} />
+                                <Img style={maxHeight} src={img} alt={alt} />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { menuData } from '../../../data/MenuData';
-import { Nav, Logo, MobileIcon, NavMenu, NavMenuLinks, NavBtn, NavItem, NavBtnlink, LogoC } from "./NavElements";
+import { Nav, Logo, MobileIcon, NavMenu, NavMenuLinks, NavBtn, NavItem, NavBtnlink, LogoC, MobileTitle } from "./NavElements";
 import { FaBars } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import  {SocialIcons, SocialIconLink} from "../../footer/FooterElements";
@@ -64,6 +64,7 @@ const Navbar = ({ toggle }) => {
                         </NavMenuLinks>
                     </NavItem>))}
             </NavMenu>
+            <MobileTitle>SaltyDao</MobileTitle>
             <SocialIcons>
                 <SocialIconLink onPointerOver={() => setHover(true)} onPointerOut={() => setHover(false)} href="https://twitter.com/SaltyDAOSolana?s=20" target='_blank' aria-label='twitter' style={SocialColorT({ hover })}>
                     <FaTwitter />

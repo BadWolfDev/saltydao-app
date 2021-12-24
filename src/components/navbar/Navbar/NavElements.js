@@ -72,15 +72,25 @@ display: none;
 @media screen and (max-width: 768px){
     display: block;
     position: absolute;
-    color: red;
+    color: #898985;
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
     &:hover {
-        color: red;
+        color: #65BCC1;
     }
+}
+`;
+
+export const MobileTitle = styled.h2`
+display: none;
+
+@media screen and (max-width: 768px){
+    display: block;
+    color: ${({scrollNav}) => (scrollNav ? "transparent" : "#65BCC1")};
+    font-family: "Teko", 'sans-serif';
 }
 `;
 

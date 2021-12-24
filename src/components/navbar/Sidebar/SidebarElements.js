@@ -8,7 +8,7 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: #0d0d0d;
+background: #898985;
 display: grid;
 align-items: center;
 top: 0;
@@ -19,9 +19,9 @@ top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `;
 
 export const CloseIcon = styled(FaTimes)`
-color: #fff;
+color: #65BCC1;
 &:hover {
-    color: red;
+    color: #397174;
 }
 `;
 
@@ -65,7 +65,7 @@ text-transform: uppercase;
 font-weight: 500;
 
 &:hover {
-    color: red;
+    color: #65BCC1;
 }
 `;
 
@@ -92,7 +92,7 @@ text-decoration: none;
 
 &:hover {
     transition: all 0.2s ease-in-out;
-    background: red;
+    background: #65BCC1;
     color: #fff;
 }
 `;
