@@ -105,12 +105,32 @@ padding-right: 0;
 `;
 
 export const WhitepaperContainer = styled.div`
-width: 100%
-background-color: black;
+width: 100%;
+background-color: #f9f9f9;
+font-family: 'Montserrat', sans-serif;
+padding: 30px
 `
 export const WhitepaperContent = styled.div`
 max-width: 80%;
 margin: 0 auto;
+
+`
+
+export const WhitepaperTitle = styled.h2`
+margin: 50px;
+text-align: center;
+font-size: 48px;
+font-family: 'Teko', sans-serif;
+`
+
+export const BenefitList = styled.ul`
+`
+
+export const BenefitListItem = styled.li`
+list-style-type: disclosure-closed;
+margin: 16px auto;
+font-size: 18px;
+
 `
 
 
