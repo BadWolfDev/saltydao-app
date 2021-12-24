@@ -104,6 +104,15 @@ margin: 0 0 10px 0;
 padding-right: 0;
 `;
 
+export const WhitepaperContainer = styled.div`
+width: 100%
+background-color: black;
+`
+export const WhitepaperContent = styled.div`
+max-width: 80%;
+margin: 0 auto;
+`
+
 
 
 
