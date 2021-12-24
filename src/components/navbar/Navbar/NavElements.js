@@ -85,7 +85,7 @@ display: none;
 `;
 
 export const NavMenuLinks = styled(LinkS)`
-color: #ACAEAD;
+color: #397174;
 display: flex;
 width: 100%;
 align-items: center;
@@ -100,12 +100,12 @@ text-transform: uppercase;
 
 &:hover {
     color: #699b86;
-    border-bottom: 3.5px solid #699b86;
+    border-bottom: 3.5px solid #397174;
 };
 
 &.active {
     color: #699b86;
-    border-bottom: 3.5px solid #699b86;
+    border-bottom: 3.5px solid #397174;
 };
 
 `;
@@ -120,7 +120,7 @@ align-items: center;
 `;
 
 export const NavBtnlink = styled(LinkR)`
-background: ${({ primary }) => (primary ? '#699b86' : '#ACAEAD')};
+background: ${({ primary }) => (primary ? '#397174' : '#ACAEAD')};
 white-space: nowrap;
 outline: none;
 border: none;
@@ -146,6 +146,6 @@ text-transform: uppercase;
 &:hover {
     transition: all 0.2s ease-in-out;
     transform: translateY(-1px);
-    background: ${({ primary }) => (primary ? '#ACAEAD' : '#699b86')};
+    background: ${({ primary }) => (primary ? '#ACAEAD' : '#397174')};
 }
 `;
