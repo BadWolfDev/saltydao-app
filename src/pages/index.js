@@ -24,7 +24,6 @@ const Home = () => {
         <Navbar toggle={toggle}/>
         <Standard {...heroObj}/>
         <Benefits />
-        <Standard {...aboutObj}/>
         <Team />
         <FAQ {...faqObj}/>
         <Footer/>
