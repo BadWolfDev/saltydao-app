@@ -25,8 +25,6 @@ const Home = () => {
         <Standard {...heroObj}/>
         <Benefits />
         <Standard {...aboutObj}/>
-        <Roadmap {...RoadmapObj}/>
-        <Standard {...mintObj}/>
         <Team />
         <FAQ {...faqObj}/>
         <Footer/>
