@@ -1,17 +1,17 @@
 import React from 'react';
 import { 
-    InfoContainer, 
-    InfoWrapper, 
+    WhitepaperContainer,
+    WhitepaperContent
 } from './StSectionelements';
 
-const Benefits = ({lightBg, id}) => {
+const Benefits = () => {
     return (
         <>
-            <InfoContainer className='bg-white'>
-                <InfoWrapper>
+            <WhitepaperContainer className='bg-white'>
+                <WhitepaperContent>
                     <h3>Testing</h3>
-                </InfoWrapper>
-            </InfoContainer>
+                </WhitepaperContent>
+            </WhitepaperContainer>
         </>
     )
 }
