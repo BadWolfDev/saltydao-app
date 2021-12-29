@@ -10,7 +10,7 @@ import {
 const Benefits = () => {
     return (
         <>
-            <WhitepaperContainer className='bg-white'>
+            <WhitepaperContainer className='bg-white' id="about">
                 <WhitepaperContent>
                     <WhitepaperTitle>Benefits</WhitepaperTitle>
                     <BenefitList>

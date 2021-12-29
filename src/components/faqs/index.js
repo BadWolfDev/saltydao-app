@@ -25,7 +25,7 @@ const maxWidth = {
 }
 
 const maxHeight = {
-    'height':'350px',
+    'position':'relative',
 }
 
 const FAQ = ({ id, lightBg, imgStart, img, alt, topLine, span, description, headLine }) => {

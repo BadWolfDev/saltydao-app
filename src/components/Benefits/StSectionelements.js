@@ -108,7 +108,8 @@ export const WhitepaperContainer = styled.div`
 width: 100%;
 background-color: #f9f9f9;
 font-family: 'Montserrat', sans-serif;
-padding: 30px
+padding: 30px;
+height: 860px;
 `
 export const WhitepaperContent = styled.div`
 max-width: 80%;

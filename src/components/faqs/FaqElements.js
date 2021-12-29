@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContainerFluid = styled.div`
-width: 100%;
+max-width: auto;
 margin: 10px 0.1rem;
 `;
 

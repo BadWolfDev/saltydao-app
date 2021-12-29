@@ -9,7 +9,7 @@ import { Button } from '../ButtonElements';
 
 const btnTwitter = {
     'background':'#00acee',
-    'max-width':'150px',
+    'width':'150px',
     'font-size':'10px',
     'border-radius':'2px',
     'margin':'auto',
@@ -30,7 +30,7 @@ const Team = () => {
                     <TeamCard>
                         <TeIcon src={Icon2}></TeIcon>
                         <Teamh2>Dré</Teamh2>
-                        <Button style={btnTwitter} onClick={event => window.location.href="https://twitter.com/willowcatstudio?s=20"}>@willowcatstudio</Button>
+                        <Button style={btnTwitter} onClick={event => window.location.href="https://twitter.com/willowcatstudio"}>@willowcatstudio</Button>
                     </TeamCard>
                     <TeamCard>
                         <TeIcon src={Icon3}></TeIcon>
@@ -45,7 +45,7 @@ const Team = () => {
                     <TeamCard>
                         <TeIcon src={Icon5}></TeIcon>
                         <Teamh2>AelphaDUB</Teamh2>
-                        <Button style={btnTwitter} onClick={event => window.location.href="https://twitter.com/NFTs_and_shit?s=20"}>@NFTs_and_shit</Button>
+                        <Button style={btnTwitter} onClick={event => window.location.href="https://twitter.com/ob_888"}>@ob_888</Button>
                     </TeamCard>
                 </TeamWrapper>
             </TeamContainer>
