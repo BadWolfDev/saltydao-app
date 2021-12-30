@@ -109,12 +109,26 @@ width: 100%;
 background-color: #f9f9f9;
 font-family: 'Montserrat', sans-serif;
 padding: 30px;
-height: 860px;
+height: auto;
+justify-content: space-evenly;
 `
 export const WhitepaperContent = styled.div`
 max-width: 80%;
 margin: 0 auto;
+justify-content: space-evenly;
+display: flex;
 
+@media screen and (max-width: 480px){
+    display: block;
+}
+`;
+
+export const WhitePaperCol = styled.div`
+flex: 50%;
+
+@media screen and (max-width: 480px){
+    flex: 100%;
+}
 `
 
 export const WhitepaperTitle = styled.h2`
@@ -122,22 +136,26 @@ margin: 50px;
 text-align: center;
 font-size: 48px;
 font-family: 'Teko', sans-serif;
+`;
+
+export const BenefitsTitle = styled.h4`
+text-align: start;
+font-size: 24px;
+font-family: "Montserrat", 'sans-serif';
+color: #65BCC1;
+
+@media screen and (max-width: 480px){
+    padding-top: 3rem;
+}
 `
 
 export const BenefitList = styled.ul`
+padding-right: 50px;
+text-align: justify;
 `
 
 export const BenefitListItem = styled.li`
-list-style-type: disclosure-closed;
+list-style-type: square;
 margin: 16px auto;
 font-size: 18px;
-
 `
-
-
-
-
-
-
-
-

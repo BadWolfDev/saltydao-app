@@ -1,5 +1,5 @@
 export const menuData = [
-    {title: 'About', link: 'about'},
+    {title: 'Benefits', link: 'benefits'},
     {title: 'Roadmap', link: 'roadmap'},
     {title: 'Mint', link: 'mint'},
     {title: 'Team', link: 'team'},
@@ -7,7 +7,7 @@ export const menuData = [
 ]
 
 export const menuDataSlider = [
-    {title: 'About', link: 'about'},
+    {title: 'Benefits', link: 'benefits'},
     {title: 'Mint', link: 'mint'},
     {title: 'Team', link: 'team'},
     {title: 'FAQ', link: 'faq'},

@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './styles.css';
 import GlobalStyle from './GlobalStyles';
 import Home from './pages';
 import MintPage from './pages/MintPage';
