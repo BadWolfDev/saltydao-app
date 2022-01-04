@@ -3,11 +3,11 @@ import Sidebar from "../components/navbar/Sidebar";
 import Navbar from "../components/navbar/Navbar";
 import Benefits from '../components/Benefits';
 import Standard from "../components/standard/index";
-import Roadmap from '../components/roadmap';
-import { aboutObj, RoadmapObj, faqObj, mintObj, heroObj } from '../data/Data';
+import { faqObj, heroObj } from '../data/Data';
 import Team from "../components/team/index";
 import FAQ from '../components/faqs/index';
 import Footer from '../components/footer';
+import Roadmap from '../components/roadmap/index';
 
 
 const Home = () => {
@@ -24,6 +24,7 @@ const Home = () => {
         <Navbar toggle={toggle}/>
         <Standard {...heroObj}/>
         <Benefits />
+        <Roadmap />
         <Team />
         <FAQ {...faqObj}/>
         <Footer/>

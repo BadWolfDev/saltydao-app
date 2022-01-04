@@ -13,7 +13,8 @@ const btnTwitter = {
     'font-size':'10px',
     'border-radius':'2px',
     'margin':'auto',
-    'text-transform':'lowercase'
+    'text-transform':'lowercase',
+    'cursor':'pointer'
 }
 
 const Team = () => {

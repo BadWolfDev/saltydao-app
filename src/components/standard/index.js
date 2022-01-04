@@ -14,7 +14,7 @@ import {
     TopLine, 
     Heading } from './StSectionelements';
 
-const Standard = ({ lightBg, show, imgStart, topLine, headLine, darkText, buttonLabel, img, alt, id, lightText, description, primary, dark, dark2 }) => {
+const Standard = ({ lightBg, show, imgStart, topLine, headLine, darkText, buttonLabel, img, alt, id, lightText, description }) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>

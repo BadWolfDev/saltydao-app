@@ -69,7 +69,7 @@ margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
-color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
+color: ${({lightText}) => (lightText ? '#96A6AA' : '#010606')};
 font-family: 'Teko', sans-serif;
 text-transform: uppercase;
 
@@ -84,7 +84,7 @@ margin-bottom: 35px;
 font-size: 14px;
 line-height: 24px;
 text-align: justify;
-color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+color: ${({darkText}) => (darkText ? '#96A6AA' : '#fff')};
 font-family: 'Montserrat', sans-serif;
 text-transform: uppercase;
 `;

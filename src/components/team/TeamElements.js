@@ -5,7 +5,7 @@ height: auto;
 display: flex;
 justify-content: center;
 align-items: center;
-background: #010606;
+background: white;
 padding: 100px 0;
 flex-flow: column;
 
@@ -51,7 +51,7 @@ padding: 0 50px;
 `;
 
 export const TeamCard = styled.div`
-background: #fff;
+background: #96A6AA;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -64,7 +64,6 @@ transition: all 0.2s ease-in-out;
 &:hover{
     transform: scale(1.02);
     transition: all 0.2 ease-in-out;
-    cursor: pointer;
 }
 `;
 
@@ -77,7 +76,7 @@ border-radius: 3px;
 
 export const Teamh1 = styled.h1`
 font-size: 2.5rem;
-color: #fff;
+color: #000;
 font-family: 'Montserrat', sans-serif;
 display: flex;
 padding-bottom: 5rem;
@@ -94,6 +93,8 @@ font-size: 1rem;
 margin-bottom: 10px;
 font-family: 'Montserrat', 'sans-serif';
 text-transform: capitalize;
+color: white;
+text-shadow: black;
 `;
 
 export const TeamP = styled.p`
