@@ -29,14 +29,14 @@ const Navbar = ({ toggle }) => {
 
     const SocialColorT = ({hover}) => (
         {
-            color: hover ? 'black':'#00acee',
+            color: hover ? '#00acee':'#00acee',
             fontSize: '20px',
         }
     );
 
     const SocialColorD = ({hover}) => (
         {
-            color: hover ? 'black':'#5865F2',
+            color: hover ? '#5865F2':'#5865F2',
             fontSize: '20px',
         }
     );

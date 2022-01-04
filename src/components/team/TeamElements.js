@@ -82,6 +82,7 @@ font-family: 'Montserrat', sans-serif;
 display: flex;
 padding-bottom: 5rem;
 text-transform: uppercase;
+font-weight: 200;
 
 @media screen and (max-width: 480px){
     font-size: 2rem;

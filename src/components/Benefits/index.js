@@ -17,7 +17,7 @@ const Benefits = () => {
                 <WhitepaperTitle>Benefits</WhitepaperTitle>
                 <WhitepaperContent>
                     <WhitePaperCol>
-                        <BenefitsTitle>For Members:</BenefitsTitle>
+                        <BenefitsTitle>To Members:</BenefitsTitle>
                         <BenefitList>
                             <BenefitListItem>Access to the best, earliest, and safest alpha in the space</BenefitListItem>
                             <BenefitListItem>SaltyDAO R.U.G.S insurance policy</BenefitListItem>
@@ -31,7 +31,7 @@ const Benefits = () => {
                         </BenefitList>
                     </WhitePaperCol>
                     <WhitePaperCol>
-                        <BenefitsTitle>For Projects:</BenefitsTitle>
+                        <BenefitsTitle>To Upcoming Projects:</BenefitsTitle>
                         <BenefitList>
                             <BenefitListItem>A seal of approval that showing you deserve the community's investment in your
                                 project</BenefitListItem>

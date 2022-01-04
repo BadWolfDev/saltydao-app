@@ -134,15 +134,19 @@ flex: 50%;
 export const WhitepaperTitle = styled.h2`
 margin: 50px;
 text-align: center;
-font-size: 48px;
-font-family: 'Teko', sans-serif;
+font-size: 36px;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+color: #397174;
+font-weight: 200;
 `;
 
 export const BenefitsTitle = styled.h4`
 text-align: start;
 font-size: 24px;
-font-family: "Montserrat", 'sans-serif';
+font-family: "Teko", 'sans-serif';
 color: #65BCC1;
+text-transform: uppercase;
 
 @media screen and (max-width: 480px){
     padding-top: 3rem;
@@ -157,5 +161,8 @@ text-align: justify;
 export const BenefitListItem = styled.li`
 list-style-type: square;
 margin: 16px auto;
-font-size: 18px;
+font-size: 16px;
+font-weight: 100;
+letter-spacing: 0.5px;
+font-family: 'Montserrat', 'sans-serif';
 `

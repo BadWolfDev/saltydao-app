@@ -17,7 +17,8 @@ const styles = {
 }
 
 const top = {
-    "color":"#397174"
+    "color":"#397174",
+    'font-weight':'200',
 }
 
 const maxWidth = {
@@ -37,8 +38,8 @@ const FAQ = ({ id, lightBg, imgStart, img, alt, topLine, span, description, head
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper style={styles}>
-                                <TopLine style={top}>{topLine}</TopLine>
-                                <Heading>{headLine}</Heading>
+                                <TopLine style={{"color":"#ACAEAD"}}>{topLine}</TopLine>
+                                <Heading style={top}>{headLine}</Heading>
                             </TextWrapper>
                             <QuestionComponent/>
                         </Column1>
