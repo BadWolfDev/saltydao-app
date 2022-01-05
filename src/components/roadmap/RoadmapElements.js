@@ -2,17 +2,15 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 background-color: transparent;
-max-height: 870px;
-height: auto;
-overflow-y: scroll;
+max-height: 650px;
 display: block;
-margin: 0;
-top: 0;
-bottom: 0;
+column-fill: balance;
+column-count: 1;
+column-width: 100%;
 
 @media screen and (max-width: 540px){
     display: block;
-    height: auto;
+    max-height: 860px;
 }
 `;
 

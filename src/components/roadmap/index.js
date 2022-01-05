@@ -89,17 +89,19 @@ const settings = {
 
 }
 
-const style = {
-    'width':'fit-content'
-}
-
 const Roadmap = () => {
     return (
+        <>
         <Container>
-            <Card style={style} {...WhySalty}/>
-            <Card {...whatIsSalty}/>
-            <Card1 {...InsuranceLoans}/>
+            <Card {...WhySalty}/>
         </Container>
+            <Container>
+                <Card {...whatIsSalty}/>
+            </Container>
+            <Container>
+                <Card1 {...InsuranceLoans}/>
+            </Container>
+            </>
     );
 }
 
