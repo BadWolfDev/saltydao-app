@@ -69,13 +69,8 @@ margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
-<<<<<<< HEAD
 color: ${({lightText}) => (lightText ? '#96A6AA' : '#010606')};
 font-family: 'Bebas Neue', sans-serif;
-=======
-color: ${({lightText}) => (lightText ? 'white' : '#010606')};
-font-family: 'Teko', sans-serif;
->>>>>>> 07678571b91903e14e4364820278cf600edfc462
 text-transform: uppercase;
 
 @media screen and (max-width: 480px){
@@ -109,11 +104,3 @@ width: 100%;
 margin: 0 0 10px 0;
 padding-right: 0;
 `;
-
-
-
-
-
-
-
-

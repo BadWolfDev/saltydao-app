@@ -53,9 +53,9 @@ const Card1 = ({ lightBg, imgStart, topLine, headLine, id, lightText, descriptio
                     <TextWrapper>
                         <Subtitle>{description}</Subtitle>
                         <List>
-                            <li>dsfsdf</li>
-                            <li>dfsf</li>
-                            <li>dsfds</li>
+                            <li>Loans must be paid back within 3 days after mint</li>
+                            <li>5 days of free marketing by SaltyDAO that will let the world know that your project is SaltySeal approved to be rug free.</li>
+                            <li>SaltyDao will receive no less than 1% of secondary royalties indefinitely.</li>
                         </List>
                     </TextWrapper>
                 </Column2>

@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-background-color: transparent;
-max-height: 625px;
+background-color: #000;
+max-height: 650px;
 display: block;
-column-fill: balance;
 column-count: 1;
 column-width: 100%;
+word-wrap: break-word;
 
 @media screen and (max-width: 540px){
     display: block;
