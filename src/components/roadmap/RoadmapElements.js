@@ -10,7 +10,7 @@ word-wrap: break-word;
 
 @media screen and (max-width: 540px){
     display: block;
-    max-height: 860px;
+    max-height: 900px;
 }
 `;
 
@@ -18,7 +18,7 @@ export const List = styled.ul`
 padding: 0;
 margin-left: 2rem;
 text-decoration: none;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 font-size: 14px;
 line-height: 24px;
