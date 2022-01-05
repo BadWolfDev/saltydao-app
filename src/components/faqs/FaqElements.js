@@ -8,7 +8,7 @@ margin: 10px 0.1rem;
 export const Accordion = styled.details`
 display: flex;
 padding: 1rem 5px;
-border: 2px solid #65BCC1;
+border: 2px solid #FFD423;
 border-radius: 1px;
 margin: 10px 0;
 align-items: center;
@@ -20,7 +20,7 @@ font-size: 22px;
 margin: 0;
 padding: 3px 0 0 3px;
 font-weight: 500;
-color: #898985;
+color: white;
 font-family: 'Teko', 'sans-serif';
 `;
 
@@ -29,6 +29,6 @@ font-size: 16px;
 margin: 0;
 padding: 10px 0 0 2.5rem;
 font-weight: 600;
-color: #397174;
+color: #FFD423;
 font-family: 'Montserrat', 'sans-serif';
 `;

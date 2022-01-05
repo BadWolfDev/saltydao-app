@@ -17,7 +17,7 @@ const styles = {
 }
 
 const top = {
-    "color":"#397174",
+    "color":"#FFD423",
     'font-weight':'200',
 }
 
@@ -33,12 +33,12 @@ const FAQ = ({ id, lightBg, imgStart, img, alt, topLine, span, description, head
 
     return (
         <>
-            <InfoContainer lightBg={lightBg} id={id}>
+            <InfoContainer lightBg={false} id={id}>
                 <InfoWrapper style={maxWidth}>
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper style={styles}>
-                                <TopLine style={{"color":"#ACAEAD"}}>{topLine}</TopLine>
+                                <TopLine style={{"color":"white"}}>{topLine}</TopLine>
                                 <Heading style={top}>{headLine}</Heading>
                             </TextWrapper>
                             <QuestionComponent/>

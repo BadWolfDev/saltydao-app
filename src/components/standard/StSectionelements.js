@@ -51,7 +51,7 @@ padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
-color: red;
+color: #FFD423;
 font-size: 16px;
 line-height: 16px;
 font-weight: 700;
@@ -69,7 +69,7 @@ margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
-color: ${({lightText}) => (lightText ? '#96A6AA' : '#010606')};
+color: ${({lightText}) => (lightText ? 'white' : '#010606')};
 font-family: 'Bebas Neue', sans-serif;
 text-transform: uppercase;
 
@@ -84,7 +84,7 @@ margin-bottom: 35px;
 font-size: 14px;
 line-height: 24px;
 text-align: justify;
-color: ${({darkText}) => (darkText ? '#96A6AA' : '#fff')};
+color: ${({darkText}) => (darkText ? 'white' : '#fff')};
 font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 `;
