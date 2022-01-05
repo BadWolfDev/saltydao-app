@@ -66,11 +66,11 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
             <MobileTitle>SaltyDao</MobileTitle>
             <SocialIcons>
-                <SocialIconLink href="https://twitter.com/SaltyDAOSolana?s=20" target='_blank' aria-label='twitter' style={SocialColorT({ hover })}>
-                    <FaTwitter />
+                <SocialIconLink href="https://twitter.com/SaltyDAOSolana?s=20" width='2rem' target='_blank' aria-label='twitter' style={SocialColorT({ hover })}>
+                    <FaTwitter size={40} />
                 </SocialIconLink>
                 <SocialIconLink onPointerOut={() => setHover(false)} href="https://discord.gg/P7ZEmB8ERp" target='_blank' aria-label='discord' style={SocialColorD({ hover })}>
-                    <FaDiscord />
+                    <FaDiscord size={40} />
                 </SocialIconLink>
             </SocialIcons>
         </Nav>
