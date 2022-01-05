@@ -84,7 +84,7 @@ margin: 36px auto 0 auto;
 `
 
 export const SocialLogo = styled(Link)`
-color: #fff;
+color: #FFD423;
 justify-self: start;
 cursor: pointer;
 text-decoration: none;

@@ -51,7 +51,7 @@ padding: 0 50px;
 `;
 
 export const TeamCard = styled.div`
-background: orange;
+background: #898985;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -91,10 +91,10 @@ font-weight: 200;
 export const Teamh2 = styled.h2`
 font-size: 1rem;
 margin-bottom: 10px;
-font-family: 'Roboto', 'sans-serif';
-text-transform: capitalize;
-color: white;
-text-shadow: black;
+font-family: 'Bebas Neue', 'sans-serif';
+text-transform: uppercase;
+color: #FFD423;
+font-weight: 500;
 `;
 
 export const TeamP = styled.p`
