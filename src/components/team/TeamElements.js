@@ -51,14 +51,14 @@ padding: 0 50px;
 `;
 
 export const TeamCard = styled.div`
-background: orange;
+background: white;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 border-radius: 10px;
 max-height: 340px;
 padding: 30px;
-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+box-shadow: none;
 transition: all 0.2s ease-in-out;
 
 &:hover{
@@ -93,7 +93,8 @@ font-size: 1rem;
 margin-bottom: 10px;
 font-family: 'Roboto', 'sans-serif';
 text-transform: capitalize;
-color: white;
+color: black;
+text-align: center;
 text-shadow: black;
 `;
 
