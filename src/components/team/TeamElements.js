@@ -51,14 +51,14 @@ padding: 0 50px;
 `;
 
 export const TeamCard = styled.div`
-background: #898985;
+background: white;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 border-radius: 10px;
 max-height: 340px;
 padding: 30px;
-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+box-shadow: none;
 transition: all 0.2s ease-in-out;
 
 &:hover{
@@ -91,10 +91,11 @@ font-weight: 200;
 export const Teamh2 = styled.h2`
 font-size: 1rem;
 margin-bottom: 10px;
-font-family: 'Bebas Neue', 'sans-serif';
-text-transform: uppercase;
-color: #FFD423;
-font-weight: 500;
+font-family: 'Roboto', 'sans-serif';
+text-transform: capitalize;
+color: black;
+text-align: center;
+text-shadow: black;
 `;
 
 export const TeamP = styled.p`

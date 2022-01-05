@@ -134,18 +134,18 @@ flex: 50%;
 export const WhitepaperTitle = styled.h2`
 margin: 50px;
 text-align: center;
-font-size: 36px;
+font-size: 60px;
 font-family: 'Bebas Neue', sans-serif;
 text-transform: uppercase;
-color: #397174;
+color: black;
 font-weight: 200;
 `;
 
 export const BenefitsTitle = styled.h4`
 text-align: start;
-font-size: 24px;
+font-size: 30px;
 font-family: "Bebas Neue", 'cursive';
-color: #65BCC1;
+color: #FFD423;
 text-transform: uppercase;
 
 @media screen and (max-width: 480px){
