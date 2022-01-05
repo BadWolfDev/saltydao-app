@@ -84,7 +84,7 @@ text-transform: uppercase;
 font-weight: 200;
 
 @media screen and (max-width: 540px){
-    font-size: 3.5rem;
+    font-size: 3.7rem;
 }
 `;
 

@@ -69,7 +69,7 @@ const Navbar = ({ toggle }) => {
                 <SocialIconLink href="https://twitter.com/SaltyDAOSolana?s=20" width='2rem' target='_blank' aria-label='twitter' style={SocialColorT({ hover })}>
                     <FaTwitter size={28} />
                 </SocialIconLink>
-                <SocialIconLink onPointerOut={() => setHover(false)} href="https://discord.gg/P7ZEmB8ERp" target='_blank' aria-label='discord' style={SocialColorD({ hover })}>
+                <SocialIconLink href="https://discord.gg/P7ZEmB8ERp" target='_blank' aria-label='discord' style={SocialColorD({ hover })}>
                     <FaDiscord size={28} />
                 </SocialIconLink>
             </SocialIcons>

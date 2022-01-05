@@ -15,7 +15,7 @@ width: 100%;
 top: 0;
 background: ${({scrollNav}) => (scrollNav ? "#fff" : "transparent")};
 box-shadow: ${({scrollNav}) => (scrollNav ? "0 1px 3px #010606" : 'none')};
-transition: all 0.3s ease-in-out;
+transition: all 0.1s ease-in-out;
 
 @media screen and (max-width: 960px){
     transition: all 0.8s ease;
