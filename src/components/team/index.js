@@ -1,6 +1,6 @@
 import React from 'react'
 import Icon1 from '../../assets/images/Bad_Wolf.jpeg'
-import Icon2 from '../../assets/images/Dre.jpeg'
+import Icon2 from '../../assets/images/Dre.png'
 import Icon3 from '../../assets/images/Prez.jpeg'
 import Icon4 from '../../assets/images/Matt.jpeg'
 import Icon5 from '../../assets/images/AelphaDUB.jpeg'
