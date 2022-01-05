@@ -22,26 +22,6 @@ transition: all 0.3s ease-in-out;
 }
 `;
 
-export const LogoC = styled.div`
-color: #0B5D33;
-align-items: center;
-padding: 0 1rem;
-font-size: 1rem;
-text-decoration: none;
-font-family: 'Montserrat', sans-serif;
-font-weight: 900;
-cursor: pointer;
-`;
-
-export const Logo = styled.img`
-padding: 0;
-width: 5rem;
-height: 4rem;
-left: 0;
-margin: 0;
-cursor: pointer;
-`
-
 export const NavMenu = styled.ul`
 display: flex;
 align-items: center;

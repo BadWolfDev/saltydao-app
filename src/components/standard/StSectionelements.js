@@ -58,7 +58,7 @@ font-weight: 700;
 letter-spacing: 1.4px;
 text-transform: uppercase;
 margin-bottom: 16px;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 text-align: justify;
 `;
@@ -70,7 +70,7 @@ font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
 color: ${({lightText}) => (lightText ? '#96A6AA' : '#010606')};
-font-family: 'Teko', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
 text-transform: uppercase;
 
 @media screen and (max-width: 480px){
@@ -85,7 +85,7 @@ font-size: 14px;
 line-height: 24px;
 text-align: justify;
 color: ${({darkText}) => (darkText ? '#96A6AA' : '#fff')};
-font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 `;
 

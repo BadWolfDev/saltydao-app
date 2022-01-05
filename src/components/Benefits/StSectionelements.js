@@ -56,7 +56,7 @@ font-weight: 700;
 letter-spacing: 1.4px;
 text-transform: uppercase;
 margin-bottom: 16px;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 text-align: justify;
 `;
@@ -68,7 +68,7 @@ font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
 color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
-font-family: 'Teko', sans-serif;
+font-family: 'Bebas Neue', 'cursive';
 text-transform: uppercase;
 
 @media screen and (max-width: 480px){
@@ -135,7 +135,7 @@ export const WhitepaperTitle = styled.h2`
 margin: 50px;
 text-align: center;
 font-size: 36px;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
 text-transform: uppercase;
 color: #397174;
 font-weight: 200;
@@ -144,7 +144,7 @@ font-weight: 200;
 export const BenefitsTitle = styled.h4`
 text-align: start;
 font-size: 24px;
-font-family: "Teko", 'sans-serif';
+font-family: "Bebas Neue", 'cursive';
 color: #65BCC1;
 text-transform: uppercase;
 
@@ -164,5 +164,5 @@ margin: 16px auto;
 font-size: 16px;
 font-weight: 100;
 letter-spacing: 0.5px;
-font-family: 'Montserrat', 'sans-serif';
+font-family: 'Roboto', 'sans-serif';
 `

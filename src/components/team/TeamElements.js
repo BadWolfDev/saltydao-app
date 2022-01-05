@@ -77,7 +77,7 @@ border-radius: 3px;
 export const Teamh1 = styled.h1`
 font-size: 2.5rem;
 color: #000;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
 display: flex;
 padding-bottom: 5rem;
 text-transform: uppercase;
@@ -91,7 +91,7 @@ font-weight: 200;
 export const Teamh2 = styled.h2`
 font-size: 1rem;
 margin-bottom: 10px;
-font-family: 'Montserrat', 'sans-serif';
+font-family: 'Roboto', 'sans-serif';
 text-transform: capitalize;
 color: white;
 text-shadow: black;
