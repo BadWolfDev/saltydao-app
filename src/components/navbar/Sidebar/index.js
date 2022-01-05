@@ -16,9 +16,6 @@ const Sidebar = ({isOpen, toggle}) => {
                         </SidebarLink>
                     ))}
                 </SidebarMenu>
-                <SideBtnWrap>
-                    <SidebarRoute to='/mint'>Mint</SidebarRoute>
-                </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
     )

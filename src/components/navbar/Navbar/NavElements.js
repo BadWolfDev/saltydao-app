@@ -59,7 +59,7 @@ display: none;
     font-size: 1.8rem;
     cursor: pointer;
     &:hover {
-        color: #65BCC1;
+        color: #FFD423;
     }
 }
 `;
@@ -69,8 +69,8 @@ display: none;
 
 @media screen and (max-width: 768px){
     display: block;
-    color: ${({scrollNav}) => (scrollNav ? "transparent" : "#65BCC1")};
-    font-family: "Teko", 'sans-serif';
+    color: ${({scrollNav}) => (scrollNav ? "transparent" : "#FFD423")};
+    font-family: "Bebus Neue", sans-serif;
 }
 `;
 

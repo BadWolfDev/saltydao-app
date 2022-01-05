@@ -19,9 +19,9 @@ top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `;
 
 export const CloseIcon = styled(FaTimes)`
-color: #65BCC1;
+color: #000;
 &:hover {
-    color: #397174;
+    color: #FFD423;
 }
 `;
 
@@ -65,7 +65,7 @@ text-transform: uppercase;
 font-weight: 500;
 
 &:hover {
-    color: #65BCC1;
+    color: #FFD423;
 }
 `;
 

@@ -93,14 +93,14 @@ display: flex;
 align-items: center;
 margin-bottom: 16px;
 font-weight: 600;
-font-family: 'Teko', sans-serif;
+font-family: 'Bebus Neue', sans-serif;
 `
 
 export const WebsiteRights = styled.small`
 color: #fff;
 margin-bottom: 16px;
 text-transform: uppercase;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 `
 
 export const SocialIcons = styled.div`

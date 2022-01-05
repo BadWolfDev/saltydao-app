@@ -2,12 +2,7 @@ import React, {useState} from "react";
 import { FaDiscord, FaTwitter } from "react-icons/fa";
 import { 
     FooterContainer, 
-    FooterWrap, 
-    FooterLinksContainer, 
-    FooterLinksWrapper, 
-    FooterLinkItem, 
-    FooterLinkTitle, 
-    FooterLink, 
+    FooterWrap,
     SocialMedia, 
     SocialMediaWrap, 
     SocialLogo, 
@@ -40,51 +35,12 @@ function Footer() {
         <>
         <FooterContainer>
             <FooterWrap>
-            {/*<FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinkItem>
-                            <FooterLinkTitle>Hola</FooterLinkTitle>
-                                <FooterLink to="/mint">mint</FooterLink>
-                                <FooterLink to="/mint">who</FooterLink>
-                                <FooterLink to="/mint">testimonials</FooterLink>
-                                <FooterLink to="/mint">lmao</FooterLink>
-                                <FooterLink to="/mint">lol</FooterLink>
-                        </FooterLinkItem>
-                        <FooterLinkItem>
-                            <FooterLinkTitle>Hola</FooterLinkTitle>
-                                <FooterLink to="/mint">mint</FooterLink>
-                                <FooterLink to="/mint">who</FooterLink>
-                                <FooterLink to="/mint">testimonials</FooterLink>
-                                <FooterLink to="/mint">lmao</FooterLink>
-                                <FooterLink to="/mint">lol</FooterLink>
-                        </FooterLinkItem>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinkItem>
-                            <FooterLinkTitle>Hola</FooterLinkTitle>
-                                <FooterLink to="/mint">mint</FooterLink>
-                                <FooterLink to="/mint">who</FooterLink>
-                                <FooterLink to="/mint">testimonials</FooterLink>
-                                <FooterLink to="/mint">lmao</FooterLink>
-                                <FooterLink to="/mint">lol</FooterLink>
-                        </FooterLinkItem>
-                        <FooterLinkItem>
-                            <FooterLinkTitle>Hola</FooterLinkTitle>
-                                <FooterLink to="/mint">mint</FooterLink>
-                                <FooterLink to="/mint">who</FooterLink>
-                                <FooterLink to="/mint">testimonials</FooterLink>
-                                <FooterLink to="/mint">lmao</FooterLink>
-                                <FooterLink to="/mint">lol</FooterLink>
-                        </FooterLinkItem>
-                    </FooterLinksWrapper>
-                </FooterLinksContainer>*/}
                 <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to='/' onClick={toggleHome}>
                     SaltyDAO
                     </SocialLogo>
-                    <WebsiteRights>Kamijejetls {new Date().getFullYear()}
-                    All Rights reserved.</WebsiteRights>
+                    <WebsiteRights>SaltyDAO {new Date().getFullYear()} | All Rights reserved</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink onPointerOver={() => setHover(true)} onPointerOut={() => setHover(false)} href="https://twitter.com/SaltyDAOSolana?s=20" target='_blank' aria-label='twitter' style={SocialColorT({hover})}>
                             <FaTwitter/>
