@@ -43,10 +43,10 @@ function Footer() {
                     <WebsiteRights>SaltyDAO {new Date().getFullYear()} | All Rights reserved</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink onPointerOver={() => setHover(true)} onPointerOut={() => setHover(false)} href="https://twitter.com/SaltyDAOSolana?s=20" target='_blank' aria-label='twitter' style={SocialColorT({hover})}>
-                            <FaTwitter/>
+                            <FaTwitter size={32}/>
                         </SocialIconLink>
                         <SocialIconLink onPointerOver={() => setHover(true)} onPointerOut={() => setHover(false)} href="https://discord.gg/P7ZEmB8ERp" target='_blank' aria-label='discord' style={SocialColorD({hover})}>
-                            <FaDiscord/>
+                            <FaDiscord size={32}/>
                         </SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>

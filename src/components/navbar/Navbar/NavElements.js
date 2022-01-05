@@ -70,7 +70,7 @@ display: none;
 @media screen and (max-width: 768px){
     display: block;
     color: ${({scrollNav}) => (scrollNav ? "transparent" : "#FFD423")};
-    font-family: "Bebus Neue", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 }
 `;
 

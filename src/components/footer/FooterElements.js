@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
-background-color: #101522;
+background-color: black;
 `;
 
 export const FooterWrap = styled.div`
@@ -93,7 +93,7 @@ display: flex;
 align-items: center;
 margin-bottom: 16px;
 font-weight: 600;
-font-family: 'Bebus Neue', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
 `
 
 export const WebsiteRights = styled.small`
