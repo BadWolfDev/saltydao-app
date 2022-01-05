@@ -66,16 +66,13 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
             <MobileTitle>SaltyDao</MobileTitle>
             <SocialIcons>
-                <SocialIconLink onPointerOver={() => setHover(true)} onPointerOut={() => setHover(false)} href="https://twitter.com/SaltyDAOSolana?s=20" target='_blank' aria-label='twitter' style={SocialColorT({ hover })}>
+                <SocialIconLink href="https://twitter.com/SaltyDAOSolana?s=20" target='_blank' aria-label='twitter' style={SocialColorT({ hover })}>
                     <FaTwitter />
                 </SocialIconLink>
-                <SocialIconLink onPointerOver={() => setHover(true)} onPointerOut={() => setHover(false)} href="https://discord.gg/P7ZEmB8ERp" target='_blank' aria-label='discord' style={SocialColorD({ hover })}>
+                <SocialIconLink onPointerOut={() => setHover(false)} href="https://discord.gg/P7ZEmB8ERp" target='_blank' aria-label='discord' style={SocialColorD({ hover })}>
                     <FaDiscord />
                 </SocialIconLink>
             </SocialIcons>
-            <NavBtn>
-                <NavBtnlink to='mint' primary={true} >Mint</NavBtnlink>
-            </NavBtn>
         </Nav>
     )
 }

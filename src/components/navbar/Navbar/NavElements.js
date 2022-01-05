@@ -95,7 +95,7 @@ display: none;
 `;
 
 export const NavMenuLinks = styled(LinkS)`
-color: #397174;
+color: #96A6AA;
 display: flex;
 width: 100%;
 align-items: center;
@@ -110,12 +110,12 @@ text-transform: uppercase;
 
 &:hover {
     color: #699b86;
-    border-bottom: 3.5px solid #397174;
+    border-bottom: 3.5px solid #699b86;
 };
 
 &.active {
     color: #699b86;
-    border-bottom: 3.5px solid #397174;
+    border-bottom: 3.5px solid #699b86;
 };
 
 `;

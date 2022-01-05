@@ -4,7 +4,7 @@ export const InfoContainer = styled.div`
 color: #fff;
 
 @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 0;
 }
 `;
 
@@ -46,7 +46,6 @@ grid-area: col2;
 export const TextWrapper = styled.div`
 max-width: 540px;
 padding-top: 0;
-padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
@@ -118,7 +117,7 @@ margin: 0 auto;
 justify-content: space-evenly;
 display: flex;
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 540px){
     display: block;
 }
 `;
@@ -126,8 +125,9 @@ display: flex;
 export const WhitePaperCol = styled.div`
 flex: 50%;
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 540px){
     flex: 100%;
+    padding-top: 30px;
 }
 `
 

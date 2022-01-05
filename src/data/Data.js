@@ -46,7 +46,7 @@ export const whatIsSalty = {
     topLine: 'R.U.G.S Insurance - SaltySeal',
     headLine: 'What is Salty?',
     description: 'At SaltyDAO our primary mission is to design a seal of approval that everyone can count on. This seal will become the cornerstone to hardworking ventures, as we will only grant this seal to exceptional upcoming projects. In turn giving peace of mind when the community hits that mint button. The SaltySeal of approval will also become the gold standard for projects, so much so that no trustworthy and honest dev team will want to launch without it. Other DAOs will look for the SaltySeal before sharing any recommendation to their investor, and degens will search for the SaltySeal prior to ape-ing in at mint. We will be known as the BBB of the Solana ecosystem.',
-    imgStart: false,
+    imgStart: true,
 };
 
 export const WhySalty = {

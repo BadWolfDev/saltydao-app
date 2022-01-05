@@ -2,6 +2,18 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 background-color: transparent;
+max-height: 870px;
+height: auto;
+overflow-y: scroll;
+display: block;
+margin: 0;
+top: 0;
+bottom: 0;
+
+@media screen and (max-width: 540px){
+    display: block;
+    height: auto;
+}
 `;
 
 export const List = styled.ul`

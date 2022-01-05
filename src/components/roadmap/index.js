@@ -13,59 +13,55 @@ import {
     TextWrapper,
     Column2,
     TopLine,
-    Heading
+    Heading,
 } from '../standard/StSectionelements';
 
 const Card = ({ lightBg, imgStart, topLine, headLine, id, lightText, description }) => {
     return (
-        <>
-            <InfoContainer lightBg={lightBg} id={id}>
-                <InfoWrapper>
-                    <InfoRow imgStart={imgStart}>
-                        <Column1>
-                            <TextWrapper>
-                                <TopLine>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headLine}</Heading>
-                            </TextWrapper>
-                        </Column1>
-                        <Column2>
-                            <TextWrapper>
-                                <Subtitle>{description}</Subtitle>
-                            </TextWrapper>
-                        </Column2>
-                    </InfoRow>
-                </InfoWrapper>
-            </InfoContainer>
-        </>
+        <InfoContainer lightBg={lightBg} id={id}>
+            <InfoWrapper>
+            <InfoRow imgStart={imgStart}>
+                <Column1>
+                    <TextWrapper>
+                        <TopLine>{topLine}</TopLine>
+                        <Heading lightText={lightText}>{headLine}</Heading>
+                    </TextWrapper>
+                </Column1>
+                <Column2>
+                    <TextWrapper>
+                        <Subtitle>{description}</Subtitle>
+                    </TextWrapper>
+                </Column2>
+            </InfoRow>
+            </InfoWrapper>
+        </InfoContainer>
     )
 }
 
 const Card1 = ({ lightBg, imgStart, topLine, headLine, id, lightText, description }) => {
     return (
-        <>
-            <InfoContainer lightBg={lightBg} id={id}>
-                <InfoWrapper>
-                    <InfoRow imgStart={imgStart}>
-                        <Column1>
-                            <TextWrapper>
-                                <TopLine>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headLine}</Heading>
-                            </TextWrapper>
-                        </Column1>
-                        <Column2>
-                            <TextWrapper>
-                                <Subtitle>{description}</Subtitle>
-                                <List>
-                                    <li>Loans must be paid back within 3 days after mint. </li>
-                                    <li>5 days of free marketing by SaltyDAO that will let the world know that your project is SaltySeal approved to be rug free.</li>
-                                    <li>SaltyDao will receive no less than 1% of secondary royalties indefinitely.</li>
-                                </List>
-                            </TextWrapper>
-                        </Column2>
-                    </InfoRow>
-                </InfoWrapper>
-            </InfoContainer>
-        </>
+        <InfoContainer lightBg={lightBg} id={id}>
+            <InfoWrapper>
+            <InfoRow imgStart={imgStart}>
+                <Column1>
+                    <TextWrapper>
+                        <TopLine>{topLine}</TopLine>
+                        <Heading lightText={lightText}>{headLine}</Heading>
+                    </TextWrapper>
+                </Column1>
+                <Column2>
+                    <TextWrapper>
+                        <Subtitle>{description}</Subtitle>
+                        <List>
+                            <li>dsfsdf</li>
+                            <li>dfsf</li>
+                            <li>dsfds</li>
+                        </List>
+                    </TextWrapper>
+                </Column2>
+            </InfoRow>
+            </InfoWrapper>
+        </InfoContainer>
     )
 }
 
@@ -93,15 +89,17 @@ const settings = {
 
 }
 
+const style = {
+    'width':'fit-content'
+}
+
 const Roadmap = () => {
     return (
         <Container>
-        <Slider {...settings}>
-            <Card {...WhySalty} />
-            <Card {...whatIsSalty} />
-            <Card1 {...InsuranceLoans} />
-        </Slider>
-    </Container>
+            <Card style={style} {...WhySalty}/>
+            <Card {...whatIsSalty}/>
+            <Card1 {...InsuranceLoans}/>
+        </Container>
     );
 }
 
