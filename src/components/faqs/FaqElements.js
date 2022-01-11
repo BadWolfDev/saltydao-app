@@ -22,6 +22,7 @@ padding: 3px 0 0 3px;
 font-weight: 500;
 color: white;
 font-family: 'Teko', 'sans-serif';
+outline: none;
 `;
 
 export const Answer = styled.p`
@@ -30,5 +31,6 @@ margin: 0;
 padding: 10px 0 0 2.5rem;
 font-weight: 600;
 color: #FFD423;
+outline: none;
 font-family: 'Montserrat', 'sans-serif';
 `;

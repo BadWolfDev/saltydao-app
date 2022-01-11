@@ -64,7 +64,7 @@ const Navbar = ({ toggle }) => {
                         </NavMenuLinks>
                     </NavItem>))}
             </NavMenu>
-            <MobileTitle>SaltyDao</MobileTitle>
+            <MobileTitle to="/" onClick={toggleHome}>SaltyDao</MobileTitle>
             <SocialIcons>
                 <SocialIconLink href="https://twitter.com/SaltyDAOSolana?s=20" width='2rem' target='_blank' aria-label='twitter' style={SocialColorT({ hover })}>
                     <FaTwitter size={28} />
